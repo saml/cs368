@@ -109,6 +109,7 @@ multimap<string, triangle> teapot;
 
 int main(int argc, char** argv)
 {
+  glutInit(&argc, argv);
 	//default resolution is 4. change the resolution by pressing r key.
 	makeBezierPolygons("cor", "pat", RESOLUTION[RES_index], teapot);
 
